@@ -244,6 +244,7 @@ export class Frontend extends Construct {
       destinationBucket: this.assetBucket,
       distribution: this.cloudFrontWebDistribution,
       outputSourceDirectory: "dist",
+      nodejsVersion: 20,
     });
 
     if (idp.isExist()) {
