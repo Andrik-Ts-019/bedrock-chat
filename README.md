@@ -114,7 +114,7 @@ For the **bedrock-region** parameter you need to choose a region [where Bedrock 
 - Run deployment via following commands. If you want to specify the version to deploy or need to apply security policies, please specify the appropriate parameters from [Optional Parameters](#optional-parameters).
 
 ```sh
-git clone https://github.com/aws-samples/bedrock-chat.git
+git clone https://github.com/Andrik-Ts-019/bedrock-chat.git
 cd bedrock-chat
 chmod +x bin.sh
 ./bin.sh
